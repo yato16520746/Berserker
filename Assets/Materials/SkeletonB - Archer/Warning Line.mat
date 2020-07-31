@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-161868881172979829
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Warning Line
+  m_Shader: {fileID: -6465566751694194690, guid: b3a9a8829b2d6ad4aa452758cf22b40a,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_32BD6555:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_630449C6_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 7fd33b3b1d6a8ef47ae2951ab6effaf8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_DE742546_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 19ed0fc07da140047a7ed2f929dfae85, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_F0DBB5E9_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 64c1aa4f06887884191fb5686fd2df79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_411A508D_Out_0:
+        m_Texture: {fileID: 2800000, guid: 0c647d3dd5c6f7049b36b6897f455f99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_90F0AA0_Out_0:
+        m_Texture: {fileID: 2800000, guid: 0c647d3dd5c6f7049b36b6897f455f99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_D311C9A2_Out_0:
+        m_Texture: {fileID: 2800000, guid: 0c647d3dd5c6f7049b36b6897f455f99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _Metalness: 0.5
+    - _Occlusion: 0.9
+    - _OcclusionStrength: 1
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Black: {r: 0.082352914, g: 0.13333327, b: 0.14117646, a: 1}
+    - _Color: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 1}
+    - _Color_Cloth_Primary: {r: 0.18431365, g: 0.23921567, b: 0.30588236, a: 1}
+    - _Color_Cloth_Secondary: {r: 0.5849056, g: 0.17719197, b: 0.14622638, a: 1}
+    - _Color_Cloth_Ter: {r: 0.20784315, g: 0.17647055, b: 0.12941176, a: 1}
+    - _Color_Custom_1: {r: 0.28235286, g: 0.37421486, b: 0.8666667, a: 0}
+    - _Color_Custom_2: {r: 0.8784314, g: 0.06274505, b: 0.6774273, a: 0}
+    - _Color_Eyes: {r: 0.07547168, g: 0.07547168, b: 0.07547168, a: 0}
+    - _Color_Gums: {r: 0.8301887, g: 0.44250616, b: 0.66440326, a: 0}
+    - _Color_Hair_Primary: {r: 0.5372549, g: 0.62352943, b: 0.62352943, a: 1}
+    - _Color_Hair_Secondary: {r: 0.4811321, g: 0.45721036, b: 0.33361518, a: 1}
+    - _Color_Horns: {r: 0.32941175, g: 0.24313727, b: 0.16470587, a: 1}
+    - _Color_Iris: {r: 0.18431365, g: 0.8000001, b: 0.49019605, a: 1}
+    - _Color_Lips: {r: 0.7830188, g: 0.077563174, b: 0.20467186, a: 0}
+    - _Color_Skin: {r: 0.654902, g: 0.57647055, b: 0.4470588, a: 1}
+    - _Color_Skin_Shade: {r: 0.6509804, g: 0.26128626, b: 0.23529407, a: 1}
+    - _Color_Teeth: {r: 0.654902, g: 0.57647055, b: 0.44705886, a: 1}
+    - _Color_Wound: {r: 0.8679245, g: 0.8257053, b: 0.28248486, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Glass_1: {r: 0.33725488, g: 0.8588236, b: 0.8862746, a: 1}
+    - _Glass_2: {r: 0.33882156, g: 0.8594212, b: 0.8867924, a: 1}
+    - _Glow_1: {r: 0.18431365, g: 0.8000001, b: 0.49019605, a: 1}
+    - _Glow_2: {r: 0.8156863, g: 0.22745097, b: 0.18823525, a: 1}
+    - _Gold: {r: 0.9333334, g: 0.7254902, b: 0.36470586, a: 1}
+    - _Metal: {r: 0.16862747, g: 0.22352937, b: 0.26274508, a: 1}
+    - _Silver: {r: 0.5686274, g: 0.6627451, b: 0.6666667, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _White: {r: 0.8078432, g: 0.8745099, b: 0.8941177, a: 1}
+    - _Wood: {r: 0.42352936, g: 0.35686278, b: 0.20784315, a: 1}

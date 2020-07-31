@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Big Sword
+  m_Shader: {fileID: -6465566751694194690, guid: 8c3a0a49ec09bb940887d4f10e7320a4,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_7C08B198:
+        m_Texture: {fileID: 2800000, guid: 368c0946a08d8404181bbaf350c51c3f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_AF2026D5:
+        m_Texture: {fileID: 2800000, guid: e5afad012fdd8df47b41db075dd03686, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainText:
+        m_Texture: {fileID: 2800000, guid: ee2125694b0db2043b26a65dac23e45f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1C8217C8: 5
+    - Vector1_6AA4FF7A: 0.5
+    - Vector1_B3E1D9EC: 0.5
+    - Vector1_E5E40BA1: 15
+    m_Colors:
+    - Color_231D0042: {r: 11.984314, g: 4.7686276, b: 0, a: 1}
+    - Vector2_8AE76415: {r: 0, g: 0.2, b: 0, a: 0}
+    - _Color: {r: 1.8880861, g: 1.8880861, b: 1.8880861, a: 1}
